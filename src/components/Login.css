@@ -1,3 +1,11 @@
+.div1 {
+  grid-area: 1 / 1 / 2 / 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(232, 247, 246);
+  padding: 5px;
+}
 
 .login-wrapper {
     display: flex;
@@ -13,7 +21,7 @@
     padding: 80px;
     border-radius: 50px;
     box-shadow: 0 0 20px rgb(0, 0, 0);
-    background-color: #8ddf30;
+    background-color: #6cbcfd;
     margin-top: -300px;
   }
   
@@ -29,3 +37,9 @@
   .login-button {
     width: 100%;
   }
+  .App-logo {
+    width: 200px; /* Define um tamanho fixo menor */
+    height: auto; /* Mantém a proporção */
+    max-width: 100%; /* Garante que não ultrapasse o contêiner */
+  }
+  
