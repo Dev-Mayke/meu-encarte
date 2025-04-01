@@ -16,7 +16,8 @@ function Login() {
       <div className="div2">
         <div className="login-wrapper">
           <div className="login-form-container">
-            <h2 className="login-title">Bem-vindo</h2>
+            <h3 className="login-title">Olá funcionário</h3>
+            <p className="subtitle">Você pode acessar ou criar sua conta abaixo</p>
             <Form>
               <Form.Group className="mb-3">
                 <Form.Label>Email address</Form.Label>

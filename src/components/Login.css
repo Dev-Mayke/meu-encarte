@@ -1,10 +1,12 @@
 .div1 {
   grid-area: 1 / 1 / 2 / 6;
+  background-color:rgb(219, 226, 245);
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(232, 247, 246);
-  padding: 5px;
+  padding: 2px;
+  height: 125px;
+  padding-bottom: 10px;
 }
 
 .login-wrapper {
@@ -16,17 +18,16 @@
   }
   
   .login-form-container {
-    width: 100%;
-    max-width: 400px;
+    width: 500px;
     padding: 80px;
     border-radius: 50px;
-    box-shadow: 0 0 20px rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
     background-color: #6cbcfd;
     margin-top: -300px;
   }
   
   .login-title {
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
   }
   
@@ -43,3 +44,7 @@
     max-width: 100%; /* Garante que não ultrapasse o contêiner */
   }
   
+  .subtitle {
+    font-size: 15px;
+    padding-bottom: 25px;
+  }
