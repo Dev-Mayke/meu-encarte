@@ -131,13 +131,13 @@
 .produto-card {
   background-color: #f8f9ff;
   border-radius: 12px;
-  padding: 16px;
+  padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   text-align: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  width: 80%;         
+  width: 100%;         
   max-width: 280px;  
-  margin: 25px;
+  margin: 50px;
 }
 
 .produto-card:hover {
@@ -176,7 +176,6 @@
   padding: 20px;
   overflow-y: auto;
   margin-left: -125px;
-  margin-top: -155px;
   border: 1px solid #90caf9; /* Azul um pouco mais escuro pro contorno */
   border-radius: 8px;
 }

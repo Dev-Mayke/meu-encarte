@@ -6,9 +6,14 @@ import { SearchResultsList } from '../components/SearchResultList';
 
 function Painel() {
   const handleClick = () => {
+    if (encarte.length === 0) {
+      alert("Selecione pelo menos um produto antes de continuar.");
+      return;
+    }
+    localStorage.setItem("encarteSelecionado", JSON.stringify(encarte));
     window.location.href = "/encartes";
   };
-
+  
   const [results, setResults] = useState([]);
   const [encarte, setEncarte] = useState([]);
 

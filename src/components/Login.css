@@ -9,6 +9,18 @@
   padding-bottom: 10px;
 }
 
+.div2 {
+  grid-area: 3 / 2 / 6 / 5;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  overflow-y: hidden; /* ou hidden, se quiser remover a barra */
+  max-height: 100vh; /* limita a altura */
+}
+
 .login-wrapper {
     display: flex;
     justify-content: center;
