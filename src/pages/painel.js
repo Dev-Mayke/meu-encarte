@@ -29,17 +29,17 @@ function Painel() {
   const produtos = [
     {
       id: 1,
-      nome: "Dipirona Sódica 500mg",
-      descricao: "Analgésico e antitérmico. Caixa com 20 comprimidos.",
-      imagem: "https://via.placeholder.com/150?text=Dipirona",
-      preco: "R$ 8,99",
-      categoria: "medicamentos"
-    },
+    nome: "Dipirona Sódica 500mg",
+    descricao: "Analgésico e antitérmico. Caixa com 20 comprimidos.",
+    imagem: "/imagem1.png",
+    preco: "R$ 8,99",
+    categoria: "medicamentos"
+  },
     {
       id: 2,
       nome: "Vitamina C Efervescente 1g",
       descricao: "Auxilia na imunidade. Sabor laranja, tubo com 10 comprimidos.",
-      imagem: "https://via.placeholder.com/150?text=Vitamina+C",
+      imagem: "/imagem2.png",
       preco: "R$ 14,90",
       categoria: "vitaminas"
     },
@@ -47,7 +47,7 @@ function Painel() {
       id: 3,
       nome: "Shampoo Anticaspa 200ml",
       descricao: "Combate a caspa e fortalece o couro cabeludo.",
-      imagem: "https://via.placeholder.com/150?text=Shampoo",
+      imagem: "/imagem3.png",
       preco: "R$ 19,90",
       categoria: "cosmeticos"
     },
@@ -55,7 +55,7 @@ function Painel() {
       id: 4,
       nome: "Álcool em Gel 70% 500ml",
       descricao: "Ideal para higienização das mãos. Embalagem prática.",
-      imagem: "https://via.placeholder.com/150?text=Álcool+Gel",
+      imagem: "/imagem4.png",
       preco: "R$ 6,99",
       categoria: "higiene"
     }
