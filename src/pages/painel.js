@@ -63,9 +63,122 @@ function Painel() {
       imagem: "/imagem4.png",
       preco: "R$ 6,99",
       categoria: "higiene"
-    }
-  ];
-
+    },
+    
+  {
+    id: 5,
+    nome: "Paracetamol 750mg",
+    descricao: "Analgésico e antitérmico. Embalagem com 20 comprimidos.",
+    imagem: "/imagem5.png",
+    preco: "R$ 9,50",
+    categoria: "medicamentos"
+  },
+  {
+    id: 6,
+    nome: "Escova Dental Macia",
+    descricao: "Cerdas macias com limpador de língua.",
+    imagem: "/imagem6.png",
+    preco: "R$ 4,20",
+    categoria: "higiene"
+  },
+  {
+    id: 7,
+    nome: "Multivitamínico A-Z",
+    descricao: "Suplemento completo para o dia a dia. 60 cápsulas.",
+    imagem: "/imagem7.png",
+    preco: "R$ 29,90",
+    categoria: "vitaminas"
+  },
+  {
+    id: 8,
+    nome: "Sabonete Líquido Facial 150ml",
+    descricao: "Limpa sem ressecar. Indicado para todos os tipos de pele.",
+    imagem: "/imagem8.png",
+    preco: "R$ 17,80",
+    categoria: "cosmeticos"
+  },
+  {
+    id: 9,
+    nome: "Luva de Látex Descartável",
+    descricao: "Embalagem com 50 unidades, ideal para uso em serviços de saúde.",
+    imagem: "/imagem9.png",
+    preco: "R$ 15,00",
+    categoria: "higiene"
+  },
+  {
+    id: 10,
+    nome: "Cálcio + Vitamina D",
+    descricao: "Suplemento para saúde óssea. Embalagem com 60 cápsulas.",
+    imagem: "/imagem10.png",
+    preco: "R$ 22,90",
+    categoria: "vitaminas"
+  },
+  {
+    id: 11,
+    nome: "Protetor Solar FPS 50 120g",
+    descricao: "Proteção solar de amplo espectro. Ideal para todos os tipos de pele.",
+    imagem: "/imagem11.png",
+    preco: "R$ 39,90",
+    categoria: "cosmeticos"
+  },
+  {
+    id: 12,
+    nome: "Soro Fisiológico 500ml",
+    descricao: "Solução isotônica para limpeza e hidratação. Embalagem com 500ml.",
+    imagem: "/imagem12.png",
+    preco: "R$ 7,90",
+    categoria: "medicamentos"
+  },
+  {
+    id: 13,
+    nome: "Creme Hidratante Facial 50g",
+    descricao: "Hidratação profunda para a pele do rosto.",
+    imagem: "/imagem13.png",
+    preco: "R$ 29,90",
+    categoria: "cosmeticos"
+  },
+  {
+    id: 14,
+    nome: "Dente de Leite 30 cápsulas",
+    descricao: "Suplemento natural para saúde dentária.",
+    imagem: "/imagem14.png",
+    preco: "R$ 15,00",
+    categoria: "vitaminas"
+  },
+  {
+    id: 15,
+    nome: "Xarope de Gripe 200ml",
+    descricao: "Alívio rápido para sintomas de gripe e resfriado.",
+    imagem: "/imagem15.png",
+    preco: "R$ 25,90",
+    categoria: "medicamentos"
+  },
+  {
+    id: 16,
+    nome: "Antisséptico Bucal 250ml",
+    descricao: "Previne doenças bucais e combate o mau hálito.",
+    imagem: "/imagem16.png",
+    preco: "R$ 9,90",
+    categoria: "higiene"
+  },
+  {
+    id: 17,
+    nome: "Cápsulas de Ômega 3 60 unidades",
+    descricao: "Suplemento alimentar para saúde cardiovascular.",
+    imagem: "/imagem17.png",
+    preco: "R$ 34,90",
+    categoria: "vitaminas"
+  },
+  {
+    id: 18,
+    nome: "Shampoo Anticaspa 400ml",
+    descricao: "Formulação para controlar a oleosidade do couro cabeludo.",
+    imagem: "/imagem18.png",
+    preco: "R$ 24,90",
+    categoria: "cosmeticos"
+  }
+];
+  
   const produtosFiltrados = produtos.filter((produto) => {
     if (Object.values(filtros).every((v) => !v)) return true;
     return filtros[produto.categoria];

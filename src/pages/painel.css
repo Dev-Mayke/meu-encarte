@@ -26,26 +26,26 @@
 }
 
 .input-wrapper {
-  padding: 2px;  /* Aumenta o padding para dar mais espaço dentro do wrapper */
-  width: 100%;  /* Ajusta a largura para ocupar 100% do seu container pai */
-  max-width: 1700px;  /* Opcional: Limita a largura máxima para não ultrapassar um tamanho muito grande */
-  margin: 0 auto;  /* Centraliza o wrapper horizontalmente */
-  border-radius: 5px;  /* Adiciona bordas arredondadas */
-  background-color: #f5f5f5;  /* Um fundo suave para destacá-lo */
+  padding: 2px;
+  width: 100%;
+  max-width: 1700px;
+  margin: 0 auto; 
+  border-radius: 5px;
+  background-color: #f5f5f5;
   font-size: 30px;
 }
 
 
 .search-bar-header {
   display: flex;
-  align-items: center;  /* Centraliza os itens verticalmente */
-  justify-content: space-between;  /* Espaça os itens ao longo do eixo horizontal */
-  padding: 20px 30px;  /* Aumenta o padding para dar mais espaço interno */
-  width: 100%;  /* Ocupa toda a largura disponível */
-  max-width: 1500px;  /* Opcional: Limita a largura máxima para não ficar muito largo */
-  margin: 0 auto;  /* Centraliza a barra de pesquisa horizontalmente */
-  background-color: #fafafa;  /* Cor de fundo mais suave */
-  border-radius: 8px;  /* Borda arredondada para um visual mais suave */
+  align-items: center;  
+  justify-content: space-between;
+  padding: 20px 30px;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: #fafafa;
+  border-radius: 8px;
 }
 
 .filtros-barra {
@@ -122,11 +122,16 @@
 }
 
 .produtos-grid {
-  display: flex;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  justify-content: center;
-  margin-right: 25%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+  justify-items: center;
 }
+
 
 .produto-card {
   background-color: #f8f9ff;
@@ -135,10 +140,11 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   text-align: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  width: 100%;         
-  max-width: 280px;  
-  margin: 50px;
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto; 
 }
+
 
 .produto-card:hover {
   transform: translateY(-4px);
@@ -169,14 +175,14 @@
 
 .div4 {
   grid-area: 3 / 5 / 6 / 6;
-  background-color: #e3f2fd; /* Azul clarinho suave */
+  background-color: #e3f2fd;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
   overflow-y: auto;
   margin-left: -125px;
-  border: 1px solid #90caf9; /* Azul um pouco mais escuro pro contorno */
+  border: 1px solid #90caf9;
   border-radius: 8px;
 }
 
@@ -229,9 +235,8 @@
   border-radius: 6px;
 }
 
-/* NOVO ESTILO: botão de remover */
 .remove-button {
-  background-color: #0033a0;
+  background-color: #d30000;
   color: white;
   border: none;
   padding: 8px 14px;
@@ -244,6 +249,6 @@
 }
 
 .remove-button:hover {
-  background-color: #001f5c;
+  background-color: #5c0000;
   transform: scale(1.05);
 }
