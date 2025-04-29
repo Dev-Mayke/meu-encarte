@@ -141,7 +141,7 @@
   text-align: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   width: 100%;
-  max-width: 280px;
+  max-width: 150px;
   margin: 0 auto; 
 }
 
@@ -251,4 +251,10 @@
 .remove-button:hover {
   background-color: #5c0000;
   transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
 }

@@ -104,3 +104,9 @@
 .login-title {
   padding-bottom: 20px;
 }
+
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
