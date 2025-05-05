@@ -1,7 +1,7 @@
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
 import './Login.css';
-import logo from '../logo.svg'; // Certifique-se de que o caminho do logo está correto
+// import logo from '../logo.svg'; // Certifique-se de que o caminho do logo está correto
 
 function Login() {
   const handleClick = () => {
@@ -9,11 +9,11 @@ function Login() {
   };
 
   return (
-    <div className="parent">
-      <div className="div1">
+    <div className="login-content">
+      {/* <div className="div1">
         <img src={logo} className="App-logo" alt="logo" />
-      </div>
-      <div className="div2">
+      </div> */}
+      <div className="div">
         <div className="login-wrapper">
           <div className="login-form-container">
             <h3 className="login-title">Olá funcionário</h3>

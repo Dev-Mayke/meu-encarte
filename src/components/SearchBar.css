@@ -1,21 +1,19 @@
 .input-wrapper {
-    background-color: white;
-    width: 100%;
-    border-radius: 10px;
-    height: 2.5rem;
-    padding:  0 15px;
-    box-shadow: 0px 0px 8px #ddd;
+    padding-left: 1rem;
+    border-radius: 1rem;
+    height: 3rem;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-input {
+.navbar-input {
     background-color: transparent;
     border: none;
-    height: 100%;
-    font-size: 1.25rem;
+    height: 100px;
     width: 100%;
     margin-left: 5px;
+    padding: 1rem;
 }
 
 input:focus {
@@ -23,11 +21,15 @@ input:focus {
 }
 
 #search-icon {
-    color: royalblue;
+    color: #1395c0;
 }
 
 .search-bar-container {
-    position: absolute;
+   
     top: 200px;
     font-size: 25px;
+}
+
+@media (max-width: 600px) {
+    
 }
