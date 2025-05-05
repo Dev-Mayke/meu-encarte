@@ -1,41 +1,17 @@
-.div1 {
-  grid-area: 1 / 1 / 2 / 6;
-  background-color:rgb(219, 226, 245);
+.login-content {
+  width: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2px;
-  height: 125px;
-  padding-bottom: 10px;
 }
-
-.div2 {
-  grid-area: 3 / 2 / 6 / 5;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  justify-content: center;
-  overflow-y: hidden; /* ou hidden, se quiser remover a barra */
-  max-height: 100vh; /* limita a altura */
-}
-
-.login-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 20px;
-  }
   
   .login-form-container {
-    width: 500px;
-    padding: 80px;
-    border-radius: 50px;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
-    background-color: #6cbcfd;
-    margin-top: -300px;
+    width: 100%;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.1);
+    background-color: #ffffff;
   }
   
   .login-title {
@@ -59,4 +35,8 @@
   .subtitle {
     font-size: 15px;
     padding-bottom: 25px;
+  }
+
+  .forgot-password {
+    padding-bottom: .5rem;
   }
